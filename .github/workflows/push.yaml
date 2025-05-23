@@ -26,7 +26,6 @@ jobs:
           tags: |
             type=ref,event=branch
             type=ref,enable=true,priority=600,prefix=,suffix=,event=tag
-            type=sha,prefix={{branch}}-
             type=sha,prefix=
 
       - name: Set up Docker Buildx
